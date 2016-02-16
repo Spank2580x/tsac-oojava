@@ -1,6 +1,6 @@
 
 public class commercialista {
-	public cliente[] clienti = new cliente[20];
+	public cliente[] clienti = new cliente[3];
 
 	public int calcolaIncasso() {
 		int incasso = 0;
@@ -31,5 +31,6 @@ public class commercialista {
 		System.out.println(i);
 
 		System.out.println(c.calcolaIncasso());
+
 	} // fine main
 }

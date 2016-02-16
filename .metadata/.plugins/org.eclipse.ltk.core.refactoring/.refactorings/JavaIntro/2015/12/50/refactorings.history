@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;HelloWorld.java&apos; to &apos;vars.java&apos;&#x0D;&#x0A;- Original project: &apos;JavaIntro&apos;&#x0D;&#x0A;- Original element: &apos;HelloWorld.java&apos;&#x0D;&#x0A;- Renamed element: &apos;vars.java&apos;" description="Rename compilation unit &apos;HelloWorld.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src&lt;{HelloWorld.java" name="vars.java" references="false" stamp="1449825817677" version="1.0"/>
+</session>

@@ -1,0 +1,40 @@
+package main.harbour;
+
+/**
+ * ************* * DA COMPLETARE * ************* *
+ */
+public class AeroPorto {
+
+	private double DimensioneSqMeters;
+	private double DimensioneSqMetersNonDistrutta;
+
+	public AeroPorto() {
+		DimensioneSqMeters = 1;
+		DimensioneSqMetersNonDistrutta = 1;
+	}
+
+	public AeroPorto(double dsm, double dsmnd) {
+		DimensioneSqMeters = dsm;
+		DimensioneSqMetersNonDistrutta = dsmnd;
+	}
+
+	public double getDimensioneSqMeters() {
+		return DimensioneSqMeters;
+	}
+
+	public void setDimensioneSqMeters(double dimensioneSqMeters) {
+		DimensioneSqMeters = dimensioneSqMeters;
+	}
+
+	public double getDimensioneSqMetersNonDistrutta() {
+		return DimensioneSqMetersNonDistrutta;
+	}
+
+	public void setDimensioneSqMetersNonDistrutta(double dimensioneSqMetersNonDistrutta) {
+		DimensioneSqMetersNonDistrutta = dimensioneSqMetersNonDistrutta;
+	}
+
+	public void addMetriQuadriDistrutti(double num) {
+		DimensioneSqMetersNonDistrutta = DimensioneSqMetersNonDistrutta - num;
+	}
+}

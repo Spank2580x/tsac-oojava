@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;buf.iulian.azienda.DIPENDENTE&apos; to &apos;dipendente&apos;&#x0D;&#x0A;- Original project: &apos;Azienda&apos;&#x0D;&#x0A;- Original element: &apos;buf.iulian.azienda.DIPENDENTE&apos;&#x0D;&#x0A;- Renamed element: &apos;buf.iulian.azienda.dipendente&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;DIPENDENTE&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;buf.iulian.azienda{DIPENDENTE.java[DIPENDENTE" matchStrategy="1" name="dipendente" qualified="false" references="true" similarDeclarations="false" stamp="1453196435789" textual="false" version="1.0"/>
+</session>

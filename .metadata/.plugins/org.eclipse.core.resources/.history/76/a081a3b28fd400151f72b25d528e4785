@@ -1,0 +1,20 @@
+package main.harbour;
+
+/**
+ * ************* *
+ * DA COMPLETARE *
+ * ************* *
+ **/
+public class Invasore {
+	protected String id;
+	protected String modello;
+	
+	public Invasore(){
+		id="xxxxxxx";
+		modello="XXXXXXX";
+	}
+	public Invasore(String aidi,String mdl){
+		id=aidi;
+		modello=mdl;
+	}
+}

@@ -1,0 +1,15 @@
+package main;
+
+public class Main {
+	
+	
+	public static void main(String[] args) {
+		PressureSensor ps=new PressureSensor();
+		ps.setListener();
+		for (int i =0;i<1000;i++){
+			ps.next();
+			System.out.println("chiamata "+i);
+		}
+	}
+
+}
